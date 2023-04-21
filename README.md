@@ -1,6 +1,7 @@
 # API-Products
 API for Paygoal
 
+Note: Postman Collection at root folder
 
 Endpoints:
 
@@ -11,3 +12,6 @@ Endpoints:
 - GET		  - /orderByPrice			    - Find All Products Ordered by Price	
 - PUT		  - /{id}					        - Update Product by ID
 - DELETE	- /{id}					        - Delete Product by ID
+
+
+
