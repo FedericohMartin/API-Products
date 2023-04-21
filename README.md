@@ -5,13 +5,13 @@ Note: Postman Collection at root folder
 
 Endpoints:
 
-- POST		- /createProduct		    - Create Product
-- GET	    - /						          - Find All Products
-- GET		  - /{id} 				        - Find Product by ID
-- GET		  - /searchbyname/{name}	- Find Product by Name
-- GET		  - /orderByPrice			    - Find All Products Ordered by Price	
-- PUT		  - /{id}					        - Update Product by ID
-- DELETE	- /{id}					        - Delete Product by ID
+- /products/createProduct		    - POST: Create Product 
+- /products/						        - GET: Find All Products
+- /products/{id} 				        - GET: Find Product by ID
+- /products/searchbyname/{name}	- GET: Find Product by Name
+- /products/orderByPrice			  - GET: Find All Products Ordered by Price	
+- /products/{id}					      - PUT: Update Product by ID
+- /products/{id}					      - DELETE: Delete Product by ID
 
 
 
